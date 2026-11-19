@@ -1,0 +1,220 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&family=Playwrite+IT+Trad:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    color: white;
+}
+
+/* main instagram section  */
+.instagram {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+/* left nav bar */
+.leftbar {
+    width: 20%;
+    height: 100vh;
+    border-right: 2px solid white;
+
+
+
+
+
+}
+
+/* logo */
+#logo {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.leftbar .icons {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.leftbar .icons .material-symbols-outlined {
+    margin-right: 8px;
+    font-size: 27px;
+}
+
+
+/* post section  */
+.post {
+    height: 100vh;
+    width: 55%;
+
+}
+
+.post .stories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.post .stories .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    margin: 7px;
+    font-size: 12px;
+    font-weight: 200px;
+}
+
+.post .stories .items .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.post .stories .items .profile .image {
+    display: inline-block;
+    border-radius: 50%;
+    /* conic graident is a color gradient in a circular form  */
+    background-image: conic-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #feda75);
+    padding: 2px;
+
+}
+
+.post .stories .items .profile .image img {
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    padding: 3px;
+}
+
+/* main post  */
+
+
+.post .mainpost {
+    height: 75vh;
+    width: 70%;
+    margin: auto;
+}
+
+.mainpost .profile {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.mainpost .profile img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    object-fit: cover;
+    background-image: conic-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #feda75);
+
+
+}
+
+.mainpost .postimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.mainpost .postimg img {
+    height: auto;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.mainpost .engagement {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+}
+
+.mainpost .engagement .material-symbols-outlined {
+    font-size: 1.8rem;
+}
+
+
+.mainpost .engagement .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* suggestion section  */
+.suggestionsection {
+    height: 100vh;
+    width: 25%;
+
+}
+
+.suggestionsection .suggestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.suggestionsection .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.suggestionsection .suggestion .profile .img img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.suggestionsection .suggestion .switch {
+    color: blueviolet;
+}
+
+.m {
+    margin-top: 40px;
+}
+
+.suggestionsection .suggestion .profile p {
+    color: #bcbab7;
+}
+
+.suggestionsection .suggestion .profile .see {
+    color: white;
+}
